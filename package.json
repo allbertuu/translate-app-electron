@@ -1,0 +1,28 @@
+{
+  "name": "translate-app-electron",
+  "version": "1.0.0",
+  "description": "App desktop de tradução em tempo real feito em Electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allbertuu/translate-app-electron.git"
+  },
+  "keywords": [
+    "electron",
+    "app",
+    "translate"
+  ],
+  "author": "Alberto Vinícius Albuquerque dos Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allbertuu/translate-app-electron/issues"
+  },
+  "homepage": "https://github.com/allbertuu/translate-app-electron#readme",
+  "devDependencies": {
+    "electron": "^19.0.6"
+  }
+}

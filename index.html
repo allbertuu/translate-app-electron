@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Tradutor desktop</title>
+  </head>
+  <body>
+    <h1>Tradutor desktop</h1>
+
+    <form action="" id="translate_form">
+      <div>
+        <label for="input_text">Digite sua frase:</label>
+        <input type="text" id="input_text" />
+      </div>
+
+      <div class="mt-5">
+        <label for="input_language">Idioma inicial:</label>
+        <select name="input_language" id="input_language">
+          <option value="en">Inglês</option>
+          <option value="pt">Português</option>
+          <option value="fr">Francês</option>
+          <option value="ru">Russo</option>
+        </select>
+      </div>
+
+      <div class="mt-5">
+        <label for="output_language">Idioma final:</label>
+        <select name="output_language" id="output_language">
+          <option value="pt">Português</option>
+          <option value="en">Inglês</option>
+          <option value="fr">Francês</option>
+          <option value="ru">Russo</option>
+        </select>
+      </div>
+      <button class="mt-5">Traduzir</button>
+    </form>
+    <hr>
+    <h3 id="results"></h3>
+  </body>
+</html>
