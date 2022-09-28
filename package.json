@@ -4,7 +4,6 @@
   "description": "App desktop de tradução em tempo real feito em Electron",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
     "translate": "trans.sh :fr hello"
   },
