@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "translate": "trans.sh :fr hello"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "homepage": "https://github.com/allbertuu/translate-app-electron#readme",
   "devDependencies": {
     "electron": "^19.0.6"
+  },
+  "dependencies": {
+    "translate-shell": "soimort/translate-shell"
   }
 }
